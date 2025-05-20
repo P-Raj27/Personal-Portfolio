@@ -165,6 +165,43 @@ body { background: var(--smoky-black); }
   #REUSED STYLE
 \*-----------------------------------*/
 
+.tech-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.tech-section h2 {
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-item {
+  background: #1e1e1e;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 15px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.tech-item:hover {
+  background: #333333;
+  transform: scale(1.05);
+}
+
+
+
 .sidebar,
 article {
   background: var(--eerie-black-2);
@@ -974,6 +1011,24 @@ main {
   transition: var(--transition-1);
 }
 
+.download-button {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #FF9800; /* Green button */
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid #FF9800;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px; /* Add some space to the left of the button */
+  margin-top: 22px;
+}
+
+.download-button:hover {
+  transform: scale(1.1);
+}
+
 .project-item > a:hover .project-img::before { background: hsla(0, 0%, 0%, 0.5); }
 
 .project-item-icon-box {
@@ -1397,6 +1452,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     align-items: flex-start;
     gap: 18px;
     padding: 30px;
+    transition: all ease;
+  }
+  .service-item:hover {
+    transform: scale(1.05);
   }
 
   .service-icon-box {

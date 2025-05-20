@@ -238,3 +238,15 @@ Email address
 Your Message
 
 Send Message
+
+
+
+
+
+{
+    "Languages": ["Typescript","Python","Javascript"],
+    "Frameworks": ["NodeJs","Django","LangChain"],
+    "Infrastructure": ["AWS","Docker","GCP","Sagemaker"],
+    "Databases": ["MongoDb","DynamoDb","Postgres","Aurora","ElastiSearch"]
+    "AI/LLM Tools": ["DsPy","Prompt Engineering","RAG","Anthropic","Bedrock"]
+}
