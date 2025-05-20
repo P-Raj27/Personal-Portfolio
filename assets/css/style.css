@@ -196,7 +196,7 @@ body { background: var(--smoky-black); }
 }
 
 .tech-item:hover {
-  background: #333333;
+  background: #816702;
   transform: scale(1.05);
 }
 
